@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<!--
+    Type on Strap jekyll theme v2.4.4
+    Theme free for personal and commercial use under the MIT license
+    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
+
+    <!-- Theme Mode-->
+    
+    <script>
+        const isAutoTheme = true;
+        document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+    </script>
+    
+
+    <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+    <script defer src="/assets/js/main.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    
+
+    <!-- KaTeX 0.15.2 -->
+    
+    <script defer src="/assets/js/vendor/katex.min.js"></script>
+    <script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+    
+
+    <!-- Mermaid 9.1.1 -->
+    
+    <script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });"></script>
+    
+
+    <!-- Simple Jekyll Search 1.10.0 -->
+    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+    <!-- Google Analytics / Cookie Consent -->
+    <script>
+      const cookieName = 'cookie-notice-dismissed-http://0.0.0.0:4000';
+      const isCookieConsent = 'false';
+      const analyticsName = '';
+      const analyticsNameGA4 = '';
+    </script>
+
+    
+    
+
+    <!-- seo tags -->
+    <meta property="og:image" content="http://0.0.0.0:4000/assets/img/header/triangular.jpeg">
+    
+    <meta property="og:type" content="website" />
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>about JITCage on iOS | VoidiStaff</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="about JITCage on iOS" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="VoidiStaff" />
+<meta property="og:description" content="VoidiStaff" />
+<link rel="canonical" href="http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html" />
+<meta property="og:site_name" content="VoidiStaff" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-01T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="about JITCage on iOS" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-01-01T00:00:00+09:00","datePublished":"2023-01-01T00:00:00+09:00","description":"VoidiStaff","headline":"about JITCage on iOS","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html"},"url":"http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="VoidiStaff" href="http://0.0.0.0:4000/feed.xml"/>
+    <link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="VoidiStaff" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="about JITCage on iOS">
+    <meta name="twitter:description" content="  JIT and JITCage          JIT Code and JIT region      History of JIT Mitigations                  1) before iOS 10          2) iOS 10+, iPhone 5s+         ...">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://0.0.0.0:4000/assets/img/header/triangular.jpeg">
+    <meta name="twitter:image:alt" content="about JITCage on iOS">
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/assets/img/triangle.png" />
+		</a>
+        
+        <a class="site-title" aria-label="VoidiStaff" href="/">
+        VoidiStaff
+		</a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        
+
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Search" title="Search" href="/search/">
+                     <i class="fas fa-search" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="Tags" title="Tags" href="/tags/">
+                     <i class="fas fa-tags" aria-hidden="true"></i>
+                    
+                </a>
+            </li>
+            
+            
+        
+            
+            
+        
+        
+        
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="about JITCage on iOS " aria-label="about JITCage on iOS" onclick="themeToggle()"></a></li>
+        
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header id="main" style="">
+    <div class="title-padder">
+      
+      <h1 id="about+JITCage+on+iOS" class="title">about JITCage on iOS</h1>
+      
+
+
+<div class="post-info">
+    <p class="meta">
+      
+      
+      January 01, 2023
+    </p></div>
+
+      
+    </div>
+  </header>
+
+  <section class="post-content">
+  
+      <ul id="markdown-toc">
+  <li><a href="#jit-and-jitcage" id="markdown-toc-jit-and-jitcage">JIT and JITCage</a>    <ul>
+      <li><a href="#jit-code-and-jit-region" id="markdown-toc-jit-code-and-jit-region">JIT Code and JIT region</a></li>
+      <li><a href="#history-of-jit-mitigations" id="markdown-toc-history-of-jit-mitigations">History of JIT Mitigations</a>        <ul>
+          <li><a href="#1-before-ios-10" id="markdown-toc-1-before-ios-10">1) before iOS 10</a></li>
+          <li><a href="#2-ios-10-iphone-5s" id="markdown-toc-2-ios-10-iphone-5s">2) iOS 10+, iPhone 5s+</a></li>
+          <li><a href="#3-ios-10-on-iphone-8-a11" id="markdown-toc-3-ios-10-on-iphone-8-a11">3) iOS 10+ on iPhone 8+ (A11+)</a></li>
+          <li><a href="#4-iphone-xs-a12" id="markdown-toc-4-iphone-xs-a12">4) iPhone XS+ (A12+)</a></li>
+          <li><a href="#5-iphone-13-a15" id="markdown-toc-5-iphone-13-a15">5) iPhone 13+ (A15+)</a></li>
+        </ul>
+      </li>
+      <li><a href="#entitlements" id="markdown-toc-entitlements">Entitlements</a></li>
+    </ul>
+  </li>
+  <li><a href="#lets-see-what-happens" id="markdown-toc-lets-see-what-happens">Let’s see what happens</a>    <ul>
+      <li><a href="#new-flags-and-new-header" id="markdown-toc-new-flags-and-new-header">New Flags and New Header</a>        <ul>
+          <li><a href="#new-mmap-flags" id="markdown-toc-new-mmap-flags">New mmap Flags</a></li>
+        </ul>
+      </li>
+      <li><a href="#generate-instructions-for-jit-code" id="markdown-toc-generate-instructions-for-jit-code">Generate instructions for JIT code</a></li>
+      <li><a href="#pacia-not-working" id="markdown-toc-pacia-not-working">PACIA not working</a></li>
+      <li><a href="#pacib-only-for-jit-code-ptr" id="markdown-toc-pacib-only-for-jit-code-ptr">PACIB only for JIT Code ptr</a></li>
+      <li><a href="#undefined-instructions" id="markdown-toc-undefined-instructions">Undefined Instructions</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#ref" id="markdown-toc-ref">Ref.</a></li>
+</ul>
+
+<p>JITCage added to WebKit repository on <a href="https://github.com/WebKit/WebKit/commit/678e6175efda5fd3c5fa15f0f582f6f517e41819">Nov 3, 2020</a>.</p>
+
+<p>iPhone 13+ with A15 SoC and later affected.</p>
+
+<p>This article is about JITCage and its implementation.</p>
+
+<h1 id="jit-and-jitcage">JIT and JITCage</h1>
+
+<h2 id="jit-code-and-jit-region">JIT Code and JIT region</h2>
+<p>The JIT (Just-in-time) compiler takes intermediate code, such as bytecode, and compiling it into native machine code at runtime.</p>
+
+<p>JIT compile is used for the purpose of improving performance in programs using dynamic languages such as JavaScript. The code is executed with an interpreter, and frequently executed code is converted into optimized machine code at runtime to improve performance.</p>
+
+<p>The JIT compiler can analyze the code being executed, including the data and algorithms used, and generate optimized machine code for the specific environment in which it is running. No optimization process details in this post.</p>
+
+<p>JavaScriptCore, the JavaScript engine used by WebKit, also uses JIT compile, and the JIT code is stored in JIT region, which is a separate memory space used to store compiled code. JIT region needs write &amp; execute permissions for dynamic code generation and execution.</p>
+
+<h2 id="history-of-jit-mitigations">History of JIT Mitigations</h2>
+
+<p>JIT regions with RWX permissions are often used for browser exploits. Therefore, JIT mitigations were focused on protecting the system from malicious code executing in the JIT region. This includes techniques such as memory randomization, code signature, and access control restrictions.</p>
+
+<p><strong><a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/jit/ExecutableAllocator.cpp#L293">WebKit / Source / JavaScriptCore / jit / ExecutableAllocator.cpp</a></strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">static</span> <span class="n">ALWAYS_INLINE</span> <span class="kt">void</span> <span class="nf">initializeSeparatedWXHeaps</span><span class="p">(</span><span class="kt">void</span><span class="o">*</span> <span class="n">stubBase</span><span class="p">,</span> <span class="kt">size_t</span> <span class="n">stubSize</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">jitBase</span><span class="p">,</span> <span class="kt">size_t</span> <span class="n">jitSize</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">auto</span> <span class="n">exitScope</span> <span class="o">=</span> <span class="n">makeScopeExit</span><span class="p">([]</span> <span class="p">{</span>
+        <span class="n">RELEASE_ASSERT</span><span class="p">(</span><span class="o">!</span><span class="n">g_jscConfig</span><span class="p">.</span><span class="n">useFastJITPermissions</span><span class="p">);</span>
+    <span class="p">});</span>
+
+    <span class="n">mach_vm_address_t</span> <span class="n">writableAddr</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="c1">// 1. Create a second mapping of the JIT region at a random address.</span>
+    <span class="n">vm_prot_t</span> <span class="n">cur</span><span class="p">,</span> <span class="n">max</span><span class="p">;</span>
+    <span class="kt">int</span> <span class="n">remapFlags</span> <span class="o">=</span> <span class="n">VM_FLAGS_ANYWHERE</span><span class="p">;</span>
+<span class="cp">#if defined(VM_FLAGS_RANDOM_ADDR)
+</span>    <span class="n">remapFlags</span> <span class="o">|=</span> <span class="n">VM_FLAGS_RANDOM_ADDR</span><span class="p">;</span>
+<span class="cp">#endif
+</span>    <span class="n">kern_return_t</span> <span class="n">ret</span> <span class="o">=</span> <span class="n">mach_vm_remap</span><span class="p">(</span><span class="n">mach_task_self</span><span class="p">(),</span> <span class="o">&amp;</span><span class="n">writableAddr</span><span class="p">,</span> <span class="n">jitSize</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="n">remapFlags</span><span class="p">,</span>
+        <span class="n">mach_task_self</span><span class="p">(),</span> <span class="p">(</span><span class="n">mach_vm_address_t</span><span class="p">)</span><span class="n">jitBase</span><span class="p">,</span> <span class="n">FALSE</span><span class="p">,</span>
+        <span class="o">&amp;</span><span class="n">cur</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">max</span><span class="p">,</span> <span class="n">VM_INHERIT_DEFAULT</span><span class="p">);</span>
+
+    <span class="kt">bool</span> <span class="n">remapSucceeded</span> <span class="o">=</span> <span class="p">(</span><span class="n">ret</span> <span class="o">==</span> <span class="n">KERN_SUCCESS</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">remapSucceeded</span><span class="p">)</span>
+        <span class="k">return</span><span class="p">;</span>
+
+    <span class="c1">// 2. Assemble a thunk that will serve as the means for writing into the JIT region.</span>
+    <span class="n">MacroAssemblerCodeRef</span><span class="o">&lt;</span><span class="n">JITThunkPtrTag</span><span class="o">&gt;</span> <span class="n">writeThunk</span> <span class="o">=</span> <span class="n">jitWriteThunkGenerator</span><span class="p">(</span><span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="kt">void</span><span class="o">*&gt;</span><span class="p">(</span><span class="n">writableAddr</span><span class="p">),</span> <span class="n">stubBase</span><span class="p">,</span> <span class="n">stubSize</span><span class="p">);</span>
+
+    <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="cp">#if USE(EXECUTE_ONLY_JIT_WRITE_FUNCTION)
+</span>    <span class="c1">// 3. Prevent reading the write thunk code.</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">vm_protect</span><span class="p">(</span><span class="n">mach_task_self</span><span class="p">(),</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">vm_address_t</span><span class="o">&gt;</span><span class="p">(</span><span class="n">stubBase</span><span class="p">),</span> <span class="n">stubSize</span><span class="p">,</span> <span class="nb">true</span><span class="p">,</span> <span class="n">VM_PROT_EXECUTE</span><span class="p">);</span>
+    <span class="n">RELEASE_ASSERT</span><span class="p">(</span><span class="o">!</span><span class="n">result</span><span class="p">);</span>
+<span class="cp">#endif
+</span>
+    <span class="c1">// 4. Prevent writing into the executable JIT mapping.</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">vm_protect</span><span class="p">(</span><span class="n">mach_task_self</span><span class="p">(),</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">vm_address_t</span><span class="o">&gt;</span><span class="p">(</span><span class="n">jitBase</span><span class="p">),</span> <span class="n">jitSize</span><span class="p">,</span> <span class="nb">true</span><span class="p">,</span> <span class="n">VM_PROT_READ</span> <span class="o">|</span> <span class="n">VM_PROT_EXECUTE</span><span class="p">);</span>
+    <span class="n">RELEASE_ASSERT</span><span class="p">(</span><span class="o">!</span><span class="n">result</span><span class="p">);</span>
+
+    <span class="c1">// 5. Prevent execution in the writable JIT mapping.</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">vm_protect</span><span class="p">(</span><span class="n">mach_task_self</span><span class="p">(),</span> <span class="k">static_cast</span><span class="o">&lt;</span><span class="n">vm_address_t</span><span class="o">&gt;</span><span class="p">(</span><span class="n">writableAddr</span><span class="p">),</span> <span class="n">jitSize</span><span class="p">,</span> <span class="nb">true</span><span class="p">,</span> <span class="n">VM_PROT_READ</span> <span class="o">|</span> <span class="n">VM_PROT_WRITE</span><span class="p">);</span>
+    <span class="n">RELEASE_ASSERT</span><span class="p">(</span><span class="o">!</span><span class="n">result</span><span class="p">);</span>
+
+    <span class="c1">// 6. Zero out writableAddr to avoid leaking the address of the writable mapping.</span>
+    <span class="n">memset_s</span><span class="p">(</span><span class="o">&amp;</span><span class="n">writableAddr</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">writableAddr</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">writableAddr</span><span class="p">));</span>
+
+<span class="cp">#if ENABLE(SEPARATED_WX_HEAP)
+</span>    <span class="n">g_jscConfig</span><span class="p">.</span><span class="n">jitWriteSeparateHeaps</span> <span class="o">=</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="n">JITWriteSeparateHeapsFunction</span><span class="o">&gt;</span><span class="p">(</span><span class="n">writeThunk</span><span class="p">.</span><span class="n">code</span><span class="p">().</span><span class="n">taggedPtr</span><span class="p">());</span>
+<span class="cp">#endif
+</span><span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="1-before-ios-10">1) before iOS 10</h3>
+
+<ul>
+  <li>JIT region is mapped with RWX permissions, in which you can write and execute arbitrary code here.</li>
+</ul>
+
+<h3 id="2-ios-10-iphone-5s">2) iOS 10+, iPhone 5s+</h3>
+
+<ul>
+  <li>Mitigation : seperated_wx_heap
+    <ul>
+      <li>Create two virtual mappings to the same physical JIT memory with one executable and one writable.</li>
+      <li>The address of writable memory is protected by XOM(eXecute-Only Memory). Emit specialized jit write function with writable address encoded as immediate values. This function is generated by the jitWriteThunk Generator and protected with excute only permission. The address of writable memory is not revealed within the process.</li>
+    </ul>
+  </li>
+  <li>Bypass
+    <ul>
+      <li>The memory address is not revealed, but you can copy the code at the offset location by calling the <code class="language-plaintext highlighter-rouge">jitWriteSeparateHeaps</code> function. This function is a pointer to the jit write function inlined in the execute-only area.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/jit/ExecutableAllocator.h#L136">WebKit / Source / JavaScriptCore / jit / ExecutableAllocator.h</a></strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#if ENABLE(SEPARATED_WX_HEAP)
+</span>        <span class="k">if</span> <span class="p">(</span><span class="n">g_jscConfig</span><span class="p">.</span><span class="n">jitWriteSeparateHeaps</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// Use execute-only write thunk for writes inside the JIT region. This is a variant of</span>
+            <span class="c1">// memcpy that takes an offset into the JIT region as its destination (first) parameter.</span>
+            <span class="kt">off_t</span> <span class="n">offset</span> <span class="o">=</span> <span class="p">(</span><span class="kt">off_t</span><span class="p">)((</span><span class="kt">uintptr_t</span><span class="p">)</span><span class="n">dst</span> <span class="o">-</span> <span class="n">startOfFixedExecutableMemoryPool</span><span class="o">&lt;</span><span class="kt">uintptr_t</span><span class="o">&gt;</span><span class="p">());</span>
+            <span class="n">retagCodePtr</span><span class="o">&lt;</span><span class="n">JITThunkPtrTag</span><span class="p">,</span> <span class="n">CFunctionPtrTag</span><span class="o">&gt;</span><span class="p">(</span><span class="n">g_jscConfig</span><span class="p">.</span><span class="n">jitWriteSeparateHeaps</span><span class="p">)(</span><span class="n">offset</span><span class="p">,</span> <span class="n">src</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+            <span class="n">RELEASE_ASSERT</span><span class="p">(</span><span class="o">!</span><span class="n">Gigacage</span><span class="o">::</span><span class="n">contains</span><span class="p">(</span><span class="n">src</span><span class="p">));</span>
+            <span class="k">return</span> <span class="n">dst</span><span class="p">;</span>
+        <span class="p">}</span>
+<span class="cp">#endif
+</span></code></pre></div></div>
+
+<h3 id="3-ios-10-on-iphone-8-a11">3) iOS 10+ on iPhone 8+ (A11+)</h3>
+
+<ul>
+  <li>Mitigation : APRR
+    <ul>
+      <li>A11 SoC supports <code class="language-plaintext highlighter-rouge">FAST_JIT_PERMISSIONS</code>. The mapping for the JIT region has been changed to only have one mapping. It takes R-X permission and changes it to RW- permission only when code generation is necessary to copy the code. (Switching using system register)</li>
+      <li>A11 SoC supports <code class="language-plaintext highlighter-rouge">FAST_JIT_PERMISSIONS</code>. The mapping for the JIT region has been changed back to only have one mapping. It uses R-X permission and changes it to RW- permission only when copies the code (permission switching using system register). After the code copy is complete, set the R-X permission again.</li>
+    </ul>
+  </li>
+  <li>Bypass 1
+    <ul>
+      <li>The <code class="language-plaintext highlighter-rouge">performJITMemcpy</code> function grants write permission to the JIT region and write the code. Find and jump to <code class="language-plaintext highlighter-rouge">linkcode</code> gadget for inlined <code class="language-plaintext highlighter-rouge">performJITMemcpy</code>. This function takes a JIT region address as an argument. You can find it by reading g_config(.startExecutableMemory/.endExecutableMemory).</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/jit/ExecutableAllocator.h#L129">WebKit / Source / JavaScriptCore / jit / ExecutableAllocator.h</a></strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// static ALWAYS_INLINE void* performJITMemcpy(void *dst, const void *src, size_t n);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">g_jscConfig</span><span class="p">.</span><span class="n">useFastJITPermissions</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">threadSelfRestrictRWXToRW</span><span class="p">();</span>
+            <span class="n">memcpy</span><span class="p">(</span><span class="n">dst</span><span class="p">,</span> <span class="n">src</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+            <span class="n">threadSelfRestrictRWXToRX</span><span class="p">();</span>
+            <span class="k">return</span> <span class="n">dst</span><span class="p">;</span>
+        <span class="p">}</span>
+</code></pre></div></div>
+<p><strong><a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/jit/ExecutableAllocator.cpp#L523">WebKit / Source / JavaScriptCore / jit / ExecutableAllocator.cpp</a></strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kt">void</span><span class="o">*</span> <span class="nf">memoryStart</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="n">g_jscConfig</span><span class="p">.</span><span class="n">startExecutableMemory</span><span class="p">;</span> <span class="p">}</span>
+    <span class="kt">void</span><span class="o">*</span> <span class="n">memoryEnd</span><span class="p">()</span> <span class="p">{</span> <span class="k">return</span> <span class="n">g_jscConfig</span><span class="p">.</span><span class="n">endExecutableMemory</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div></div>
+<ul>
+  <li>Bypass 2
+    <ul>
+      <li>Overwrite the <a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/assembler/AssemblerBuffer.h#L293">AssemblerBuffer</a>, which temporarily stores the compiled JIT code, before copying it to the JIT region.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong><a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/assembler/LinkBuffer.cpp#L429">WebKit / Source / JavaScriptCore / assembler / LinkBuffer.cpp</a></strong></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">AssemblerBuffer</span><span class="o">&amp;</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">macroAssembler</span><span class="p">.</span><span class="n">m_assembler</span><span class="p">.</span><span class="n">buffer</span><span class="p">();</span>
+<span class="p">...</span>
+<span class="n">performJITMemcpy</span><span class="p">(</span><span class="n">code</span><span class="p">,</span> <span class="n">buffer</span><span class="p">.</span><span class="n">data</span><span class="p">(),</span> <span class="n">buffer</span><span class="p">.</span><span class="n">codeSize</span><span class="p">());</span>
+</code></pre></div></div>
+
+<h3 id="4-iphone-xs-a12">4) iPhone XS+ (A12+)</h3>
+
+<ul>
+  <li>Mitigation : PAC, JIT code signature
+    <ul>
+      <li>PAC(Pointer Authentication Code) prevents code reuse attacks like ROP(Return-Oriented Programming) and JOP(Jump-Oriented Programming). Add authentication code to pointer and validate to ensure that it has not been modified by an attacker. Generate authentication code for instruction pointer with IA/IB key and data pointer with DA/DB key.</li>
+      <li>
+        <p>This made calling gadgets like <code class="language-plaintext highlighter-rouge">performJITMemcpy</code> difficult. We need gadget pointers signed with pac.</p>
+      </li>
+      <li><a href="https://github.com/WebKit/WebKit/commit/a190853078db354853acfb767b3ffca16cf4e3ac">JIT code signature</a> is PAC-based software mitigation. <a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/assembler/AssemblerBuffer.h#L280">Generate PAC-based instruction hash</a> in hash storage during code emit in AssemblerBuffer. <a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/assembler/LinkBuffer.cpp#L234">Verify instruction hash</a> before JIT copy operation.</li>
+      <li>PAC and JIT code signature continue to be strengthened.</li>
+    </ul>
+  </li>
+  <li>Bypass
+    <ul>
+      <li>There are various ways to bypass PAC, but the most common way to bypass PAC is to write and execute arbitrary code in JIT region.</li>
+      <li>To write arbitrary code in JIT region, PAC bypass is required.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="5-iphone-13-a15">5) iPhone 13+ (A15+)</h3>
+
+<ul>
+  <li>Mitigation : JITCage
+    <ul>
+      <li>JITCage is sandboxing for JIT regions. Prevent arbitrary function calls, restrict executable instructions, and use different A/B key than the process when signing and verifying PACs.</li>
+    </ul>
+  </li>
+  <li>Bypass
+    <ul>
+      <li>(ˉ﹃ˉ)</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="entitlements">Entitlements</h2>
+
+<p>By the iOS Security Model, device is protected by code signing. In the process of installation, runtime, update, etc., it is verified that it has valid code signing, which indicates that it is a reliable code and has not been tampered with.</p>
+
+<p>So dynamic code generation is limited, iOS uses the <code class="language-plaintext highlighter-rouge">dynamic-codesigning</code> entitlement to enable the JIT feature. Process with this entitlement can allocate a memory with MAP_JIT flag. Dynamic code signing is allowed for this memory.</p>
+
+<p>To use the JITCage feature, <code class="language-plaintext highlighter-rouge">com.apple.private.verified-jit</code> entitlement is also required.</p>
+
+<p><strong><a href="https://github.com/WebKit/WebKit/blob/ad2e13b2a8e69c2ea538cdb8c7cb101a40555266/Source/JavaScriptCore/entitlements.plist">WebKit / Source / JavaScriptCore / entitlements.plist</a></strong></p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span class="cp">&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;</span>
+<span class="nt">&lt;plist</span> <span class="na">version=</span><span class="s">"1.0"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;dict&gt;</span>
+	<span class="nt">&lt;key&gt;</span>com.apple.private.verified-jit<span class="nt">&lt;/key&gt;</span>
+	<span class="nt">&lt;true/&gt;</span>
+	<span class="nt">&lt;key&gt;</span>com.apple.security.cs.single-jit<span class="nt">&lt;/key&gt;</span>
+	<span class="nt">&lt;true/&gt;</span>
+	<span class="nt">&lt;key&gt;</span>dynamic-codesigning<span class="nt">&lt;/key&gt;</span>
+	<span class="nt">&lt;true/&gt;</span>
+<span class="nt">&lt;/dict&gt;</span>
+<span class="nt">&lt;/plist&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li>com.apple.private.verified-jit
+    <ul>
+      <li>enable JITCage feature</li>
+    </ul>
+  </li>
+  <li>com.apple.security.cs.single-jit
+    <ul>
+      <li>limits a process to a single JIT region (macOS entitlement)</li>
+    </ul>
+  </li>
+  <li>dynamic-codesigning
+    <ul>
+      <li>enable JIT</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="lets-see-what-happens">Let’s see what happens</h1>
+
+<p>The following is description of JITCage in the <a href="https://github.com/WebKit/WebKit/commit/678e6175efda5fd3c5fa15f0f582f6f517e41819">commit</a>.</p>
+
+<blockquote>
+  <p>Towards software verified JIT, this patch adds partial JIT-Caging support which cages JIT call / jumps in a certain format.<br />
+This is currently only enabled when internal SDK is enabled. And it is only enabled in ARM64E for now.<br />
+Currently, this patch does not have CSS JIT support. Subsequent patch will add it.
+We ensured that JS2 and RAMification are neutral.</p>
+</blockquote>
+
+<p>JITCage limits JIT instructions, restricts call/jump to prevent jumps to unexpected locations.</p>
+
+<p>Not much information has been released. The following materials contain about JITCage. But analysis required for more information.</p>
+<ol>
+  <li><a href="https://www.synacktiv.com/sites/default/files/2022-10/attacking_safari_in_2022_slides.pdf">https://www.synacktiv.com/sites/default/files/2022-10/attacking_safari_in_2022_slides.pdf</a></li>
+  <li><a href="https://www.youtube.com/watch?v=8mQAYeozl5I">https://www.youtube.com/watch?v=8mQAYeozl5I</a></li>
+</ol>
+
+<h2 id="new-flags-and-new-header">New Flags and New Header</h2>
+
+<p>These are requirements for enabling JITCage and JIT Operation Validation.</p>
+
+<p><a href="https://github.com/WebKit/WebKit/blob/16a66f7561b54ca47761eabaea1b6ddbfa5e03ae/Source/WTF/wtf/PlatformEnable.h#L862">WebKit / Source / WTF / wtf / PlatformEnable.h # L862</a></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#if OS(DARWIN) &amp;&amp; ENABLE(JIT) &amp;&amp; USE(APPLE_INTERNAL_SDK) &amp;&amp; CPU(ARM64E) &amp;&amp; HAVE(JIT_CAGE) &amp;&amp; !PLATFORM(MAC)
+#define ENABLE_JIT_CAGE 1
+#endif
+</span>
+<span class="cp">#if OS(DARWIN) &amp;&amp; CPU(ADDRESS64) &amp;&amp; ENABLE(JIT) &amp;&amp; (ENABLE(JIT_CAGE) || ASSERT_ENABLED)
+#define ENABLE_JIT_OPERATION_VALIDATION 1
+#endif
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">JIT_CAGE</code> is for JIT sandboxing. <code class="language-plaintext highlighter-rouge">JIT_OPERATION_VALIDATION</code> is for validate JIT-caged pointers.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#if ENABLE(JIT_CAGE)
+#include</span> <span class="cpf">&lt;WebKitAdditions/JITCageAdditions.h&gt;</span><span class="cp">
+#else // ENABLE(JIT_CAGE)
+</span></code></pre></div></div>
+<p>JITCageAdditions.h of the WebKitAdditions framework in APPLE_INTERNAL_SDK provides an interface for JITCage. Naturally, <code class="language-plaintext highlighter-rouge">ENABLE(APPLE_INTERNAL_SDK)</code> must be true to use JITCage.</p>
+
+<h3 id="new-mmap-flags">New mmap Flags</h3>
+<p><a href="https://github.com/WebKit/WebKit/blob/16a66f7561b54ca47761eabaea1b6ddbfa5e03ae/Source/WTF/wtf/posix/OSAllocatorPOSIX.cpp">WebKit / Source / WTF / wtf / posix / OSAllocatorPOSIX.cpp</a></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        <span class="cp">#if OS(DARWIN)
+</span>            <span class="k">if</span> <span class="p">(</span><span class="n">executable</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">jitCageEnabled</span><span class="p">)</span>
+                    <span class="n">flags</span> <span class="o">|=</span> <span class="n">MAP_EXECUTABLE_FOR_JIT_WITH_JIT_CAGE</span><span class="p">;</span>
+                <span class="k">else</span>
+                    <span class="n">flags</span> <span class="o">|=</span> <span class="n">MAP_EXECUTABLE_FOR_JIT</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="cp">#else
+</span><span class="p">...</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">mmap</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="n">bytes</span><span class="p">,</span> <span class="n">protection</span><span class="p">,</span> <span class="n">flags</span><span class="p">,</span> <span class="n">fd</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</code></pre></div></div>
+<p>When allocating JITCage memory, the mmap function is called with a new flag <code class="language-plaintext highlighter-rouge">MAP_EXECUTABLE_FOR_JIT_WITH_JIT_CAGE</code>. This flag is defined in JITCageAdditions.h.</p>
+
+<ul>
+  <li>OSAllocator::reserveUncommitted in IDA</li>
+</ul>
+
+<p><img src="/assets/img/230201_00_mmap.png" alt="mmap" /></p>
+
+<p><code class="language-plaintext highlighter-rouge">MAP_EXECUTABLE_FOR_JIT</code> is 0x1802,<br />
+<code class="language-plaintext highlighter-rouge">MAP_EXECUTABLE_FOR_JIT_WITH_JIT_CAGE</code> is 0x11802.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*
+ * Flags contain sharing type and options.
+ * Sharing types; choose one.
+ */</span>
+<span class="cp">#define MAP_SHARED      0x0001          </span><span class="cm">/* [MF|SHM] share changes */</span><span class="cp">
+#define MAP_PRIVATE     0x0002          </span><span class="cm">/* [MF|SHM] changes are private */</span><span class="cp">
+#if !defined(_POSIX_C_SOURCE) || defined(_DARWIN_C_SOURCE)
+#define MAP_COPY        MAP_PRIVATE     </span><span class="cm">/* Obsolete */</span><span class="cp">
+#endif  </span><span class="cm">/* (!_POSIX_C_SOURCE || _DARWIN_C_SOURCE) */</span><span class="cp">
+</span>
+<span class="cm">/*
+ * Other flags
+ */</span>
+<span class="cp">#define MAP_FIXED        0x0010 </span><span class="cm">/* [MF|SHM] interpret addr exactly */</span><span class="cp">
+#if !defined(_POSIX_C_SOURCE) || defined(_DARWIN_C_SOURCE)
+#define MAP_RENAME       0x0020 </span><span class="cm">/* Sun: rename private pages to file */</span><span class="cp">
+#define MAP_NORESERVE    0x0040 </span><span class="cm">/* Sun: don't reserve needed swap area */</span><span class="cp">
+#define MAP_RESERVED0080 0x0080 </span><span class="cm">/* previously unimplemented MAP_INHERIT */</span><span class="cp">
+#define MAP_NOEXTEND     0x0100 </span><span class="cm">/* for MAP_FILE, don't change file size */</span><span class="cp">
+#define MAP_HASSEMAPHORE 0x0200 </span><span class="cm">/* region may contain semaphores */</span><span class="cp">
+#define MAP_NOCACHE      0x0400 </span><span class="cm">/* don't cache pages for this mapping */</span><span class="cp">
+#define MAP_JIT          0x0800 </span><span class="cm">/* Allocate a region that will be used for JIT purposes */</span><span class="cp">
+</span>
+<span class="cm">/*
+ * Mapping type
+ */</span>
+<span class="cp">#define MAP_FILE        0x0000  </span><span class="cm">/* map from file (default) */</span><span class="cp">
+#define MAP_ANON        0x1000  </span><span class="cm">/* allocated from memory, swap space */</span><span class="cp">
+#define MAP_ANONYMOUS   MAP_ANON
+</span></code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">MAP_EXECUTABLE_FOR_JIT</code> means <code class="language-plaintext highlighter-rouge">(MAP_ANON(0x1000) | MAP_JIT(0x0800) | MAP_PRIVATE(0x0002))</code>. <code class="language-plaintext highlighter-rouge">MAP_EXECUTABLE_FOR_JIT_WITH_JIT_CAGE</code> means <code class="language-plaintext highlighter-rouge">(MAP_EXECUTABLE_FOR_JIT | MAP_JITCAGE(0x10000))</code></p>
+
+<p>(<code class="language-plaintext highlighter-rouge">MAP_JITCAGE</code> is not an official name. The exact flag name is unknown because the flag does not appear in the published XNU open source.)</p>
+
+<ul>
+  <li>mmap in IDA</li>
+</ul>
+
+<p><img src="/assets/img/230201_01_map_jitcage.png" alt="mmap" /></p>
+
+<p>The mmap function called with the <code class="language-plaintext highlighter-rouge">MAP_JITCAGE</code> flag checks the “com.apple.private.verified-jit” entitlement and allocates the JITCaged page.</p>
+
+<h2 id="generate-instructions-for-jit-code">Generate instructions for JIT code</h2>
+
+<p>The assembler generated in the JITCage area is slightly different. (See LIntThunks.cpp, MacroAssemblerARM64E.h)</p>
+
+<p>The instructions generated by JITCage are slightly different.</p>
+<blockquote>
+  <p>Trace this flow :<br />
+createJSGateThunk(pointer, tag, name) → jit.call(reg, tag) → callRegister(reg, lr)</p>
+</blockquote>
+
+<p>LLIntThunks.cpp : createJSGateThunk(…)</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">jit</span><span class="p">.</span><span class="n">call</span><span class="p">(</span><span class="n">GPRInfo</span><span class="o">::</span><span class="n">regT5</span><span class="p">,</span> <span class="n">tag</span><span class="p">);</span>
+</code></pre></div></div>
+<p>MacroAssemblerARM64E.h : call(…)</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ALWAYS_INLINE</span> <span class="n">Call</span> <span class="nf">call</span><span class="p">(</span><span class="n">RegisterID</span> <span class="n">targetGPR</span><span class="p">,</span> <span class="n">PtrTag</span> <span class="n">tag</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">ASSERT</span><span class="p">(</span><span class="n">tag</span> <span class="o">!=</span> <span class="n">CFunctionPtrTag</span> <span class="o">&amp;&amp;</span> <span class="n">tag</span> <span class="o">!=</span> <span class="n">NoPtrTag</span><span class="p">);</span>
+    <span class="n">ASSERT</span><span class="p">(</span><span class="o">!</span><span class="n">Options</span><span class="o">::</span><span class="n">useJITCage</span><span class="p">()</span> <span class="o">||</span> <span class="n">callerType</span><span class="p">(</span><span class="n">tag</span><span class="p">)</span> <span class="o">==</span> <span class="n">PtrTagCallerType</span><span class="o">::</span><span class="n">JIT</span><span class="p">);</span>
+    <span class="n">move</span><span class="p">(</span><span class="n">TrustedImm64</span><span class="p">(</span><span class="n">tag</span><span class="p">),</span> <span class="n">ARM64Registers</span><span class="o">::</span><span class="n">lr</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">calleeType</span><span class="p">(</span><span class="n">tag</span><span class="p">)</span> <span class="o">==</span> <span class="n">PtrTagCalleeType</span><span class="o">::</span><span class="n">JIT</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">callRegister</span><span class="o">&lt;</span><span class="n">CallSignatureType</span><span class="o">::</span><span class="n">JITCall</span><span class="o">&gt;</span><span class="p">(</span><span class="n">targetGPR</span><span class="p">,</span> <span class="n">ARM64Registers</span><span class="o">::</span><span class="n">lr</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">callRegister</span><span class="o">&lt;</span><span class="n">CallSignatureType</span><span class="o">::</span><span class="n">NativeCall</span><span class="o">&gt;</span><span class="p">(</span><span class="n">targetGPR</span><span class="p">,</span> <span class="n">ARM64Registers</span><span class="o">::</span><span class="n">lr</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>MacroAssemblerARM64E.h : callRegister(…)</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">template</span><span class="o">&lt;</span><span class="n">CallSignatureType</span> <span class="n">type</span><span class="p">&gt;</span>
+<span class="n">ALWAYS_INLINE</span> <span class="n">Call</span> <span class="nf">callRegister</span><span class="p">(</span><span class="n">RegisterID</span> <span class="n">targetGPR</span><span class="p">,</span> <span class="n">RegisterID</span> <span class="n">tagGPR</span> <span class="o">=</span> <span class="n">InvalidGPR</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">UNUSED_PARAM</span><span class="p">(</span><span class="n">type</span><span class="p">);</span>
+    <span class="n">ASSERT</span><span class="p">(</span><span class="n">tagGPR</span> <span class="o">!=</span> <span class="n">targetGPR</span><span class="p">);</span>
+    <span class="n">invalidateAllTempRegisters</span><span class="p">();</span>
+<span class="cp">#if ENABLE(JIT_CAGE)
+</span>    <span class="k">if</span> <span class="p">(</span><span class="n">Options</span><span class="o">::</span><span class="n">useJITCage</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">JSC_JIT_CAGED_CALL</span><span class="p">(</span><span class="n">type</span><span class="p">,</span> <span class="n">targetGPR</span><span class="p">,</span> <span class="n">tagGPR</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span>
+<span class="cp">#endif
+</span>        <span class="n">m_assembler</span><span class="p">.</span><span class="n">blrab</span><span class="p">(</span><span class="n">targetGPR</span><span class="p">,</span> <span class="n">tagGPR</span><span class="p">);</span>
+    <span class="k">return</span> <span class="n">Call</span><span class="p">(</span><span class="n">m_assembler</span><span class="p">.</span><span class="n">labelIgnoringWatchpoints</span><span class="p">(),</span> <span class="n">Call</span><span class="o">::</span><span class="n">None</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Different instructions are generated depending on whether the target being called into the register is JIT code or native code.<br />
+Since there is no published code for <code class="language-plaintext highlighter-rouge">JSC_JIT_CAGED_CALL</code> in callRegister function, let’s see IDA.</p>
+
+<p><img src="/assets/img/230201_02_ins.png" alt="ins-00" /></p>
+
+<p>These are the functions inlined in <code class="language-plaintext highlighter-rouge">JSC::LLInt::createJSGateThunk</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">BLRAB X5, X30</code> was generated for register calls, but it has been changed to generate <code class="language-plaintext highlighter-rouge">BLRAA X5, X30</code> for register calls pointing to native code in the JITCaged environment.</p>
+
+<p><img src="/assets/img/230201_03_ins.png" alt="ins-01" /></p>
+
+<p><img src="/assets/img/230201_04_ins.png" alt="ins-02" /></p>
+
+<p>In case of calling native code from JITCage, not only register call, but also calling <code class="language-plaintext highlighter-rouge">trustedPtr</code> or <code class="language-plaintext highlighter-rouge">farJump</code>, it has been changed to use IA key instead of IB key to verify PAC.</p>
+
+<h2 id="pacia-not-working">PACIA not working</h2>
+
+<p>When calling native code from JITCage, BRAA/BLRAA is used, so calling native code requires a PACed pointer using JITCage IA key.</p>
+
+<p>However, within a JITCage page, PACIA do not generate PAC tagging. Because of this, it is not easy to jump to the native code even if the shellcode is executed on the JIT page.</p>
+
+<p>As a result of the execution, tag is not inserted into the pointer even if the PACIA is executed.</p>
+
+<p>PACIA for JIT code ptr :</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mh">0x10000200</span><span class="p">;</span> <span class="c1">// ADR    X0, #0x40</span>
+<span class="mh">0xDAC10020</span><span class="p">;</span> <span class="c1">// PACIA  X0, X1</span>
+<span class="mh">0x44444444</span><span class="p">;</span>
+</code></pre></div></div>
+<p><img src="/assets/img/230201_08_pacia.png" alt="pacia-00" /></p>
+
+<h2 id="pacib-only-for-jit-code-ptr">PACIB only for JIT Code ptr</h2>
+
+<p>Within the JITCage page, PACIB operates only on pointers within the JIT page.</p>
+
+<p>If the target pointer signed by PACIB is within the scope of the JIT page, a PAC tagged value is generated, but not for other pointers.</p>
+
+<p>PACIB for JIT code ptr :</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mh">0x10000200</span><span class="p">;</span> <span class="c1">// ADR    X0, #0x40</span>
+<span class="mh">0xdac10420</span><span class="p">;</span> <span class="c1">// PACIB  X0, X1</span>
+<span class="mh">0x44444444</span><span class="p">;</span>
+</code></pre></div></div>
+<p><img src="/assets/img/230201_10_pacib.png" alt="pacib-01" /></p>
+
+<p>PACIB for Native code ptr :</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mh">0x10000200</span><span class="p">;</span> <span class="c1">// ADR    X0, #0x40</span>
+<span class="mh">0xF9400000</span><span class="p">;</span> <span class="c1">// LDR    X0, [X0]  ; address of native code</span>
+<span class="mh">0xDAC10420</span><span class="p">;</span> <span class="c1">// PACIB  X0, X1</span>
+<span class="mh">0x44444444</span><span class="p">;</span>
+</code></pre></div></div>
+<p><img src="/assets/img/230201_09_pacib.png" alt="pacib-00" /></p>
+
+<h2 id="undefined-instructions">Undefined Instructions</h2>
+
+<p>So, why not use a BR instruction that does not verify the PAC? , but the BR instruction is not available.</p>
+
+<p>test for BR instruction :</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mh">0xD2882820</span><span class="p">;</span> <span class="c1">// MOV  X0, #0x4141</span>
+<span class="mh">0xD61F0000</span><span class="p">;</span> <span class="c1">// BR   X0</span>
+</code></pre></div></div>
+
+<p><img src="/assets/img/230201_05_crash.png" alt="crash-01" /><br />
+<img src="/assets/img/230201_07_crash.png" alt="crash-03" /></p>
+
+<p>BR, RET, SVC, etc. instructions are undefined and cannot be used.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Since BR, RET, SVC, etc. cannot be used in shellcode written in JITCage, PAC bypass is required to jump to native code.</p>
+
+<p>However, in JITCage, PACIA does not work and PACIB works only for JIT code ptr. So direct PAC signature generation for arbitrary address is restricted. It is difficult to call arbitrary address.</p>
+
+<p>In order to call native code from JITCage, pointer signature using JITCage IA key must be achieved.</p>
+
+<h1 id="ref">Ref.</h1>
+<ol>
+  <li>https://github.com/WebKit/WebKit/commit/678e6175efda5fd3c5fa15f0f582f6f517e41819</li>
+  <li>https://trac.webkit.org/wiki/AppleWebKitGoalsfor2021</li>
+  <li>https://opensource.apple.com/source/xnu/xnu-7195.141.2/bsd/kern/kern_mman.c.auto.html</li>
+  <li>https://www.blackhat.com/docs/us-16/materials/us-16-Krstic.pdf</li>
+</ol>
+
+    
+  </section>
+
+  <!-- Social media shares -->
+  
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html" target="_blank"
+               title=" Facebook">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=about+JITCage+on+iOS%20http%3A%2F%2F0.0.0.0%3A4000%2Fsafari%2F2023%2F01%2F01%2Fabout-jitcage-on-ios.html"
+               target="_blank" title="">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&u=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html&quote=about+JITCage+on+iOS%20%7C%20VoidiStaff&s="
+               target="_blank" title=" Tumblr">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html&media=$description="
+               target="_blank" title="">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html&title=about+JITCage+on+iOS%20%7C%20VoidiStaff"
+               target="_blank" title=" Reddit">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html&title=about+JITCage+on+iOS%20%7C%20VoidiStaff&summary=&source=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html"
+               target="_blank" title=" LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=about JITCage on iOS%20%7C%20VoidiStaff&body=http://0.0.0.0:4000/safari/2023/01/01/about-jitcage-on-ios.html"
+               target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+   <!-- Tag list -->
+  
+  
+
+
+  <div class="tag-list">
+    <ul>
+      
+        <li class="meta">Tags</li>
+      
+
+      
+        <li><a class="button" href="/tags#JIT">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> JIT</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#WebKit">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> WebKit</p>
+        </a></li>
+      
+        <li><a class="button" href="/tags#iOS">
+          <p><i class="fas fa-tag fa-fw fa-sm"></i> iOS</p>
+        </a></li>
+      
+    </ul>
+  </div>
+
+
+
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+
+    
+</div>
+
+
+
+<!--Utterances-->
+
+
+<!-- Cusdis -->
+
+
+<!-- Disqus -->
+
+
+<!-- To change color of links in the page -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+  header#main {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  .post-content > * {
+    font-family: 'Gowun Dodum', sans-serif;
+  }
+
+  
+
+  
+</style>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">
+        Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                
+<li>
+    <a feed.xml href="/feed.xml"
+       title="Follow RSS feed"
+       target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+        
+        
+        
+        <li>
+            <a href="https://github.com/VoidiStaff"
+               title="Follow on Github"
+               target="_blank"
+               rel="noopener">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+            </a>
+        </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </ul>
+            </div>
+</footer>
+
+
+
+  </body>
+</html>
